@@ -1,6 +1,7 @@
 # simple-mensuration-calculator
  A simple program that calculates mensuration of plane (2D) shapes
-## Contains the following functions
+ 
+## Contains the following calculations
 1. Area and perimeter of a rectangle
 2. Area and perimeter of a parallelogram
 3. Area of a triangle

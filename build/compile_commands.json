@@ -34,5 +34,11 @@
   "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\shapes\\parallelogram\\parallelogram.cpp.obj -c \"C:\\Users\\elo48\\OneDrive\\Documents\\C and C++ Programs\\ricky-ultimate\\cpp-simple-mensuration-calculator\\src\\shapes\\parallelogram\\parallelogram.cpp\"",
   "file": "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/parallelogram/parallelogram.cpp",
   "output": "CMakeFiles/main.dir/src/shapes/parallelogram/parallelogram.cpp.obj"
+},
+{
+  "directory": "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\shapes\\trapezium\\trapezium.cpp.obj -c \"C:\\Users\\elo48\\OneDrive\\Documents\\C and C++ Programs\\ricky-ultimate\\cpp-simple-mensuration-calculator\\src\\shapes\\trapezium\\trapezium.cpp\"",
+  "file": "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/trapezium/trapezium.cpp",
+  "output": "CMakeFiles/main.dir/src/shapes/trapezium/trapezium.cpp.obj"
 }
 ]

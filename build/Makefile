@@ -224,6 +224,30 @@ src/shapes/rectangle/rectangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s
 .PHONY : src/shapes/rectangle/rectangle.cpp.s
 
+src/shapes/trapezium/trapezium.obj: src/shapes/trapezium/trapezium.cpp.obj
+.PHONY : src/shapes/trapezium/trapezium.obj
+
+# target to build an object file
+src/shapes/trapezium/trapezium.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/trapezium/trapezium.cpp.obj
+.PHONY : src/shapes/trapezium/trapezium.cpp.obj
+
+src/shapes/trapezium/trapezium.i: src/shapes/trapezium/trapezium.cpp.i
+.PHONY : src/shapes/trapezium/trapezium.i
+
+# target to preprocess a source file
+src/shapes/trapezium/trapezium.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/trapezium/trapezium.cpp.i
+.PHONY : src/shapes/trapezium/trapezium.cpp.i
+
+src/shapes/trapezium/trapezium.s: src/shapes/trapezium/trapezium.cpp.s
+.PHONY : src/shapes/trapezium/trapezium.s
+
+# target to generate assembly for a file
+src/shapes/trapezium/trapezium.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/trapezium/trapezium.cpp.s
+.PHONY : src/shapes/trapezium/trapezium.cpp.s
+
 src/shapes/triangle/triangle.obj: src/shapes/triangle/triangle.cpp.obj
 .PHONY : src/shapes/triangle/triangle.obj
 
@@ -293,6 +317,9 @@ help:
 	@echo ... src/shapes/rectangle/rectangle.obj
 	@echo ... src/shapes/rectangle/rectangle.i
 	@echo ... src/shapes/rectangle/rectangle.s
+	@echo ... src/shapes/trapezium/trapezium.obj
+	@echo ... src/shapes/trapezium/trapezium.i
+	@echo ... src/shapes/trapezium/trapezium.s
 	@echo ... src/shapes/triangle/triangle.obj
 	@echo ... src/shapes/triangle/triangle.i
 	@echo ... src/shapes/triangle/triangle.s

@@ -7,5 +7,6 @@
 4. Area of a trapezium
 5. Area and perimeter of a square
 
-# Still working on:
-1. User input selection
+## Functionalities
+1. User input
+2. Shape and parameter selection

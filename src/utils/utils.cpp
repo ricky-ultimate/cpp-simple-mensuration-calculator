@@ -36,7 +36,7 @@ int getUserChoice() {
 }
 
 void handleShapeInput(int shape) {
-    if (shape < 1 || shape > 5) {
+    if (shape < 1 || shape > 4) {
         exit(1);
     }
 

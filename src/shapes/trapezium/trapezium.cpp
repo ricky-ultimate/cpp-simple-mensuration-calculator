@@ -54,10 +54,10 @@ namespace shapes {
 
             std::cout << "\nSide one: "; std::cin >> sideOne;
             std::cout << "Side two: "; std::cin >> sideTwo;
-            std::cout << "Height: "; std::cout << std::endl;
+            std::cout << "Height: "; std::cin >> height; std::cout << std::endl;
 
             double area = (0.5 * (sideOne + sideTwo)) * height;
-            std::string result = "Area = " + std::to_string(area) + "1/2 * (a + b)h";
+            std::string result = "Area = " + std::to_string(area) + " 1/2 * (a + b)h";
 
             std::cout << result << std::endl;
         }

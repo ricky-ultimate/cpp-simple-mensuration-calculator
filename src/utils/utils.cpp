@@ -17,6 +17,11 @@ namespace shapes {
         void display();
         void handleShapeInput();
     }
+
+    namespace trapezium {
+        void display();
+        void handleShapeInput();
+    }
 }
 
 void refreshStdOut() {
@@ -54,6 +59,10 @@ void handleShapeInput(int shape) {
 
         case 3:
             shapes::triangle::handleShapeInput();
+            break;
+
+        case 4:
+            shapes::trapezium::handleShapeInput();
             break;
         
         default:

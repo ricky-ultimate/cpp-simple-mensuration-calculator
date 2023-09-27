@@ -16,5 +16,4 @@ int main(){
 }
 
 // parallelogram
-// triangle
 // trapezium

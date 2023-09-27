@@ -176,6 +176,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shapes/parallelogram/parallelogram.obj: src/shapes/parallelogram/parallelogram.cpp.obj
+.PHONY : src/shapes/parallelogram/parallelogram.obj
+
+# target to build an object file
+src/shapes/parallelogram/parallelogram.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/parallelogram/parallelogram.cpp.obj
+.PHONY : src/shapes/parallelogram/parallelogram.cpp.obj
+
+src/shapes/parallelogram/parallelogram.i: src/shapes/parallelogram/parallelogram.cpp.i
+.PHONY : src/shapes/parallelogram/parallelogram.i
+
+# target to preprocess a source file
+src/shapes/parallelogram/parallelogram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/parallelogram/parallelogram.cpp.i
+.PHONY : src/shapes/parallelogram/parallelogram.cpp.i
+
+src/shapes/parallelogram/parallelogram.s: src/shapes/parallelogram/parallelogram.cpp.s
+.PHONY : src/shapes/parallelogram/parallelogram.s
+
+# target to generate assembly for a file
+src/shapes/parallelogram/parallelogram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/parallelogram/parallelogram.cpp.s
+.PHONY : src/shapes/parallelogram/parallelogram.cpp.s
+
 src/shapes/rectangle/rectangle.obj: src/shapes/rectangle/rectangle.cpp.obj
 .PHONY : src/shapes/rectangle/rectangle.obj
 
@@ -263,6 +287,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/shapes/parallelogram/parallelogram.obj
+	@echo ... src/shapes/parallelogram/parallelogram.i
+	@echo ... src/shapes/parallelogram/parallelogram.s
 	@echo ... src/shapes/rectangle/rectangle.obj
 	@echo ... src/shapes/rectangle/rectangle.i
 	@echo ... src/shapes/rectangle/rectangle.s

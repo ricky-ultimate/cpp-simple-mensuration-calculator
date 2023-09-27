@@ -56,7 +56,7 @@ namespace shapes {
             std::cout << "Height: "; std::cin >> height; std::cout << std::endl;
 
             double area = 0.5 * base * height;
-            std::string result = "Area = " + std::to_string(area) + " (1/2 x Base x Height)";
+            std::string result = "Area = " + std::to_string(area) + " (1/2 x b x h)";
 
             std::cout << result << std::endl;
         }
@@ -77,7 +77,7 @@ namespace shapes {
             }
 
             double perimeter = sideOne + sideTwo + sideThree;
-            std::string result = "Perimeter = " + std::to_string(perimeter) + " (Side one + Side two + Side three)";
+            std::string result = "Perimeter = " + std::to_string(perimeter) + " (a + b + c)";
 
             std::cout << result << std::endl;
         }

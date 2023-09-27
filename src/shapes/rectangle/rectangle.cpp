@@ -56,7 +56,7 @@ namespace shapes {
             std::cout << "Breadth: "; std::cin >> breadth; std::cout << std::endl;
 
             double area = length * breadth;
-            std::string result = "Area = " + std::to_string(area) + " (Length x Breadth)";
+            std::string result = "Area = " + std::to_string(area) + " (l * b)";
 
             std::cout << result << std::endl;
         }
@@ -71,7 +71,7 @@ namespace shapes {
             std::cout << "Breadth: "; std::cin >> breadth; std::cout << std::endl;
 
             double perimeter = 2 * (length + breadth);
-            std::string result = "Perimeter = " + std::to_string(perimeter) + " (2 * [Length + Breadth])";
+            std::string result = "Perimeter = " + std::to_string(perimeter) + " (2 * (l + b))";
 
             std::cout << result << std::endl;
         }

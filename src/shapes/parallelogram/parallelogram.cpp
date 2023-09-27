@@ -50,14 +50,13 @@ namespace shapes {
             std::cout << "PARALLELOGRAM: AREA" << std::endl;
             std::cout << "---------------" << std::endl;
 
-            double sideOne, sideTwo, height = 0;
+            double base, height = 0;
 
-            std::cout << "\nSide One: "; std::cin >> sideOne;
-            std::cout << "\nSide Two: "; std::cin >> sideTwo;
+            std::cout << "\nBase: "; std::cin >> base;
             std::cout << "Height: "; std::cin >> height; std::cout << std::endl;
 
-            double area = 0.5 * (sideOne + sideTwo) + height;
-            std::string result = "Area = " + std::to_string(area) + " (1/2 * (a + b) * h)";
+            double area = base * height;
+            std::string result = "Area = " + std::to_string(area) + " (bh)";
 
             std::cout << result << std::endl;
         }

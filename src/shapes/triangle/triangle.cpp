@@ -77,7 +77,7 @@ namespace shapes {
             }
 
             double perimeter = sideOne + sideTwo + sideThree;
-            std::string result = "Perimeter = " + std::to_string(perimeter) + " (2 * [Length + Breadth])";
+            std::string result = "Perimeter = " + std::to_string(perimeter) + " (Side one + Side two + Side three)";
 
             std::cout << result << std::endl;
         }

@@ -1,11 +1,13 @@
-# simple-mensuration-calculator
- A simple program that calculates mensuration of plane (2D) shapes
-## Contains the following functions
-1. Area and perimeter of a rectangle
-2. Area and perimeter of a parallelogram
-3. Area of a triangle
-4. Area of a trapezium
-5. Area and perimeter of a square
+# C++ Mensuration Calculator
+A simple program that calculates the mensuration of plane (2D) shapes, written in C++
+ 
+## Features
+The program contains the area of perimeter calculation of each of these shapes:
+1. Rectangle
+2. parallelogram
+3. Triangle
+4. Trapezium
 
-# Still working on:
-1. User input selection
+## Functionalities
+1. User input
+2. Shape and parameter selection

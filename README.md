@@ -2,7 +2,7 @@
 A simple program that calculates the mensuration of plane (2D) shapes, written in C++
  
 ## Features
-The program contains the area of perimeter calculation of each of these shapes:
+The program contains the area and perimeter calculation of each of these shapes:
 1. Rectangle
 2. parallelogram
 3. Triangle

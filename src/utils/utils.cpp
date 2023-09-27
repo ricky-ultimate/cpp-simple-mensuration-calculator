@@ -8,6 +8,11 @@ namespace shapes {
         void handleShapeInput();
     }
 
+    namespace parallelogram {
+        void display();
+        void handleShapeInput();
+    }
+
     namespace triangle {
         void display();
         void handleShapeInput();
@@ -41,6 +46,10 @@ void handleShapeInput(int shape) {
     {
         case 1:
             shapes::rectangle::handleShapeInput();
+            break;
+
+        case 2:
+            shapes::parallelogram::handleShapeInput();
             break;
 
         case 3:

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "rectangle.h"
+#include "triangle.h"
 #include "../../utils/utils.h"
 
 using namespace std;
@@ -52,7 +52,7 @@ namespace shapes {
 
             double base, height = 0;
 
-            std::cout << "\Base: "; std::cin >> base;
+            std::cout << "\nBase: "; std::cin >> base;
             std::cout << "Height: "; std::cin >> height; std::cout << std::endl;
 
             double area = 0.5 * base * height;
@@ -67,8 +67,8 @@ namespace shapes {
             
             double sideOne, sideTwo, sideThree = 0;
 
-            std::cout << "\Side One: "; std::cin >> sideOne;
-            std::cout << "\Side Two: "; std::cin >> sideOne;
+            std::cout << "\nSide One: "; std::cin >> sideOne;
+            std::cout << "Side Two: "; std::cin >> sideOne;
             std::cout << "Side Three: "; std::cin >> sideThree; std::cout << std::endl;
 
             if (sideThree > (sideOne + sideTwo)) {

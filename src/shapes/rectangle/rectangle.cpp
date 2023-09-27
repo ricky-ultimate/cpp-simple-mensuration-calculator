@@ -70,8 +70,8 @@ namespace shapes {
             std::cout << "\nLength: "; std::cin >> length;
             std::cout << "Breadth: "; std::cin >> breadth; std::cout << std::endl;
 
-            double area = 2 + (length + breadth);
-            std::string result = "Perimeter = " + std::to_string(area) + " (2 * [Length + Breadth])";
+            double perimeter = 2 + (length + breadth);
+            std::string result = "Perimeter = " + std::to_string(perimeter) + " (2 * [Length + Breadth])";
 
             std::cout << result << std::endl;
         }

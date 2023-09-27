@@ -13,8 +13,10 @@ void lineBreak();
 void displayTitle() {
     cout <<"WELCOME TO THE MENSURATION (2D SHAPES) CALCULATOR!" << endl;
     printf("--------------------------------------------------");
+
     cout <<"\nThe available shapes are:" << endl;
     cout << " \n\t1. Rectangle \n\t2. Parallelogram \n\t3. Triangle \n\t4. Trapezium \n\t5. Square " << endl;
+
     cout <<"\n Enter the shape's number to continue: ";
 }
 
@@ -32,7 +34,7 @@ int main(){
         cout <<"THIS IS THE RECTANGLE PARAMETER CALCULATOR" <<endl;
         printf("------------------------------------------");
         cout << "\n1. Area \n2. Perimeter \n3. Both" <<endl;
-        cout << "Which Parameter woud you like to calculate for?: ";
+        cout << "Which Parameter would you like to calculate for?: ";
         cin >> parameter;
 
         if(parameter == 1){
@@ -61,7 +63,7 @@ int main(){
         cout << "THIS IS THE PARALLELOGRAM PARAMETER CALCULATOR" <<endl;
         printf("-----------------------------------------------");
         cout << "\n1. Area \n2. Perimeter \n3. Both" <<endl;
-        cout << "Which Parameter woud you like to calculate for?: ";
+        cout << "Which Parameter would you like to calculate for?: ";
         cin >> parameter;
 
         if(parameter == 1){
@@ -114,7 +116,7 @@ int main(){
         cout << "THIS IS THE SQUARE PARAMETER CALCULATOR" <<endl;
         printf("----------------------------------------");
         cout << "\n1. Area \n2. Perimeter \n3. Both" <<endl;
-        cout << "Which Parameter woud you like to calculate for?: ";
+        cout << "Which Parameter would you like to calculate for?: ";
         cin >> parameter;
 
         if(parameter == 1){

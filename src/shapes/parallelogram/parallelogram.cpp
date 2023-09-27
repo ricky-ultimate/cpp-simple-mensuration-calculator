@@ -41,6 +41,7 @@ namespace shapes {
 
                 default:
                     area();
+                    lineBreak();
                     perimeter();
                     break;
             }

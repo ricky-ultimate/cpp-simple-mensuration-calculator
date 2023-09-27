@@ -1,2 +1,2 @@
-void rectangleArea();
-void rectanglePerimeter();
+void area();
+void perimeter();

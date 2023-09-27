@@ -5,7 +5,7 @@ using namespace std;
 
 namespace shapes {
     namespace rectangle {
-        void rectangleArea() {
+        void area() {
             cout << "RECTANGLE AREA" << endl;
             printf("---------------");
             cout << endl;
@@ -25,7 +25,7 @@ namespace shapes {
             cout << result << endl;
         }
 
-        void rectanglePerimeter(){
+        void perimeter(){
             cout << "RECTANGLE PERIMETER" << endl;
             printf("--------------------");
             cout << endl;
@@ -38,8 +38,8 @@ namespace shapes {
             cin >> breadth;
             cout << endl;
 
-            double area = length * breadth;
-            std::string result = "Area = " + std::to_string(area) + " (2 * [Length + Breadth])";
+            double area = 2 + (length + breadth);
+            std::string result = "Perimeter = " + std::to_string(area) + " (2 * [Length + Breadth])";
 
             cout << result << endl;
         }

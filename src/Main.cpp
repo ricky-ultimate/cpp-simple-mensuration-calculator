@@ -3,139 +3,78 @@
 #include "display/display.h"
 #include "shapes/rectangle/rectangle.h"
 
-#define repeat(n) for (int i = 0; i < n; i++) 
-
 using namespace std;
 namespace shapes {
     namespace rectangle {
-        void rectangleArea();
+        void area();
+        void perimeter();
     }
 }
 
-void parallelogramArea(), parallelogramPerimeter();
-void triangleArea(), trapeziumArea();
-void squareArea(), squarePerimeter();
-void lineBreak();
+void refreshStdOut() {
+    system("cls");
+    cin.clear();
+}
+
+void lineBreak() {
+    cout << "\n\n" << endl;
+}
+
+void displayRectangleMenu() {
+    std::cout << "RECTANGLE: PARAMETER CALCULATOR" << std::endl;
+    std::cout << "------------------------------------------" << std::endl;
+    std::cout << "\n1. Area \n2. Perimeter \n3. Both\n" << std::endl;
+}
+
+int getUserChoice() {
+    int choice;
+    std::cout << "Which parameter would you like to calculate for?: ";
+    std::cin >> choice;
+    return choice;
+}
+
+void validateChoice(int choice) {
+    if (choice < 1 || choice > 3) {
+        std::cout << "Parameter should be in the range 1 to 3" << std::endl;
+        exit(1);
+    }
+}
+
+void handleShapeInput(int shape) {
+    if (shape < 1 || shape > 5) {
+        exit(1);
+    }
+
+    refreshStdOut();
+
+    if (shape == 1) {
+        displayRectangleMenu();
+        int parameter = getUserChoice();
+
+        validateChoice(parameter);
+        lineBreak();
+
+        if (parameter == 1) {
+            shapes::rectangle::area();
+        } else if (parameter == 2) {
+            shapes::rectangle::perimeter();
+        } else {
+            shapes::rectangle::area();
+            lineBreak();
+            shapes::rectangle::perimeter();
+        }
+    }
+    
+}
 
 int main(){
     displayTitle();
 
-    int shape, parameter;   
+    int shape = 0;   
     cin >> shape;
     cin.clear();
 
-    shapes::rectangle::rectangleArea();
-
-    // if (shape == 1){
-    //     system("cls");
-    //     cin.clear();
-    //     cout <<"THIS IS THE RECTANGLE PARAMETER CALCULATOR" <<endl;
-    //     printf("------------------------------------------");
-    //     cout << "\n1. Area \n2. Perimeter \n3. Both" <<endl;
-    //     cout << "Which Parameter would you like to calculate for?: ";
-    //     cin >> parameter;
-
-    //     if(parameter == 1){
-    //         system("cls");
-    //         rectangleArea();
-    //         cin.clear();
-    //         system("pause");
-    //     }
-    //     if(parameter == 2){
-    //        system("cls");
-    //        rectanglePerimeter();
-    //        cin.clear();
-    //        system("pause");
-    //     }
-    //     if(parameter == 3){
-    //         system("cls");
-    //         rectangleArea();
-    //         lineBreak();
-    //         rectanglePerimeter();
-    //     }
-    // }
-
-    // if (shape == 2){
-    //     system("cls");
-    //     cin.clear();
-    //     cout << "THIS IS THE PARALLELOGRAM PARAMETER CALCULATOR" <<endl;
-    //     printf("-----------------------------------------------");
-    //     cout << "\n1. Area \n2. Perimeter \n3. Both" <<endl;
-    //     cout << "Which Parameter would you like to calculate for?: ";
-    //     cin >> parameter;
-
-    //     if(parameter == 1){
-    //         system("cls");
-    //         parallelogramArea();
-    //         cin.clear();
-    //         system("pause");
-    //     }
-    //     if(parameter == 2){
-    //         system("cls");
-    //        parallelogramPerimeter();
-    //        cin.clear();
-    //        system("pause");
-    //     }
-    //     if(parameter == 3){
-    //         system("cls");
-    //         parallelogramArea();
-    //         lineBreak();
-    //         parallelogramPerimeter();
-    //     }
-    // }
-
-    // if (shape == 3){
-    //     system("cls");
-    //     cin.clear();
-    //     cout <<"THIS IS THE TRIANGLE PARAMETER CALCULATOR" <<endl;
-    //     printf("-----------------------------------------");
-    //     cout << endl;
-    //     cout << "\nThe Triangle only has the area parameter... Enjoy" <<endl;
-    //     cout << endl;
-    //     system("pause");
-    //     triangleArea();
-    // }
-
-    // if (shape == 4){
-    //     system("cls");
-    //     cin.clear();
-    //     cout <<"THIS IS THE PARALLELOGRAM PARAMETER CALCULATOR" <<endl;
-    //     printf("----------------------------------------------");
-    //     cout << endl;
-    //     cout << "\nThe Trapezium only has the area parameter... Enjoy" <<endl;
-    //     cout << endl;
-    //     system("pause");
-    //     trapeziumArea();
-    // }
-
-    // if (shape == 5){
-    //     system("cls");
-    //     cin.clear();
-    //     cout << "THIS IS THE SQUARE PARAMETER CALCULATOR" <<endl;
-    //     printf("----------------------------------------");
-    //     cout << "\n1. Area \n2. Perimeter \n3. Both" <<endl;
-    //     cout << "Which Parameter would you like to calculate for?: ";
-    //     cin >> parameter;
-
-    //     if(parameter == 1){
-    //         system("cls");
-    //         squareArea();
-    //         system("pause");
-    //         cin.clear();
-    //     }
-    //     if(parameter == 2){
-    //        system("cls");
-    //        squarePerimeter();
-    //        system("pause");
-    //        cin.clear();
-    //     }
-    //     if(parameter == 3){
-    //         system("cls");
-    //         squareArea();
-    //         lineBreak();
-    //         squarePerimeter();
-    //     }
-    // }
+    handleShapeInput(shape);
 }
 
 void parallelogramArea(){
@@ -239,12 +178,4 @@ void squarePerimeter(){
 
     cout << "Perimeter = " << " 4 x " << d << " = " << 4 * d << endl;
     cout << endl;
-}
-
-
-void lineBreak(){
-    repeat(60){
-        printf("_");
-    }
-    cout << "\n" << endl;
 }

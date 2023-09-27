@@ -69,7 +69,7 @@ namespace shapes {
             double sideOne, sideTwo, sideThree = 0;
 
             std::cout << "\nSide One: "; std::cin >> sideOne;
-            std::cout << "Side Two: "; std::cin >> sideOne;
+            std::cout << "Side Two: "; std::cin >> sideTwo;
             std::cout << "Side Three: "; std::cin >> sideThree; std::cout << std::endl;
 
             if (sideThree > (sideOne + sideTwo)) {

@@ -9,17 +9,20 @@ namespace shapes {
             cout << "RECTANGLE AREA" << endl;
             printf("---------------");
             cout << endl;
-            double l, b;  //l: length | b: breadth
+
+            double length, breadth = 0;
 
             cout <<"\nLength: ";
-            cin >> l;
+            cin >> length;
 
             cout <<"Breadth: ";
-            cin >> b;
+            cin >> breadth;
             cout << endl;
 
-            cout << "Area = " << l << " x " << b << " = " << l * b << endl;
-            cout << endl;
+            double area = length * breadth;
+            std::string result = "Area = " + std::to_string(area) + " (Length x Breadth)";
+
+            cout << result << endl;
         }
 
         void rectanglePerimeter(){

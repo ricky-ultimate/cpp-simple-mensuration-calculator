@@ -10,5 +10,11 @@
   "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\display\\display.cpp.obj -c \"C:\\Users\\elo48\\OneDrive\\Documents\\C and C++ Programs\\ricky-ultimate\\cpp-simple-mensuration-calculator\\src\\display\\display.cpp\"",
   "file": "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/display/display.cpp",
   "output": "CMakeFiles/main.dir/src/display/display.cpp.obj"
+},
+{
+  "directory": "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\shapes\\rectangle\\rectangle.cpp.obj -c \"C:\\Users\\elo48\\OneDrive\\Documents\\C and C++ Programs\\ricky-ultimate\\cpp-simple-mensuration-calculator\\src\\shapes\\rectangle\\rectangle.cpp\"",
+  "file": "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/rectangle/rectangle.cpp",
+  "output": "CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj"
 }
 ]

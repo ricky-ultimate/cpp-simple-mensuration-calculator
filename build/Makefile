@@ -176,6 +176,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shapes/rectangle/rectangle.obj: src/shapes/rectangle/rectangle.cpp.obj
+.PHONY : src/shapes/rectangle/rectangle.obj
+
+# target to build an object file
+src/shapes/rectangle/rectangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj
+.PHONY : src/shapes/rectangle/rectangle.cpp.obj
+
+src/shapes/rectangle/rectangle.i: src/shapes/rectangle/rectangle.cpp.i
+.PHONY : src/shapes/rectangle/rectangle.i
+
+# target to preprocess a source file
+src/shapes/rectangle/rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.i
+.PHONY : src/shapes/rectangle/rectangle.cpp.i
+
+src/shapes/rectangle/rectangle.s: src/shapes/rectangle/rectangle.cpp.s
+.PHONY : src/shapes/rectangle/rectangle.s
+
+# target to generate assembly for a file
+src/shapes/rectangle/rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s
+.PHONY : src/shapes/rectangle/rectangle.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/shapes/rectangle/rectangle.obj
+	@echo ... src/shapes/rectangle/rectangle.i
+	@echo ... src/shapes/rectangle/rectangle.s
 .PHONY : help
 
 

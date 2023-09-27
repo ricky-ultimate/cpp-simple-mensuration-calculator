@@ -58,7 +58,7 @@ namespace shapes {
             double area = length * breadth;
             std::string result = "Area = " + std::to_string(area) + " (Length x Breadth)";
 
-            cout << result << endl;
+            std::cout << result << std::endl;
         }
 
         void perimeter(){
@@ -73,7 +73,7 @@ namespace shapes {
             double area = 2 + (length + breadth);
             std::string result = "Perimeter = " + std::to_string(area) + " (2 * [Length + Breadth])";
 
-            cout << result << endl;
+            std::cout << result << std::endl;
         }
     }
 }

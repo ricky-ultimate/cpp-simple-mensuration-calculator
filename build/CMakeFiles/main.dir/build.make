@@ -96,24 +96,10 @@ CMakeFiles/main.dir/src/display/display.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/display/display.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\display\display.cpp" -o CMakeFiles\main.dir\src\display\display.cpp.s
 
-CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj: C:/Users/elo48/OneDrive/Documents/C\ and\ C++\ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/rectangle/rectangle.cpp
-CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj -MF CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.obj.d -o CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.obj -c "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\rectangle\rectangle.cpp"
-
-CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\rectangle\rectangle.cpp" > CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.i
-
-CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\rectangle\rectangle.cpp" -o CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.s
-
 CMakeFiles/main.dir/src/utils/utils.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/utils/utils.cpp.obj: C:/Users/elo48/OneDrive/Documents/C\ and\ C++\ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/utils/utils.cpp
 CMakeFiles/main.dir/src/utils/utils.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/utils/utils.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/utils/utils.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/utils/utils.cpp.obj -MF CMakeFiles\main.dir\src\utils\utils.cpp.obj.d -o CMakeFiles\main.dir\src\utils\utils.cpp.obj -c "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\utils\utils.cpp"
 
 CMakeFiles/main.dir/src/utils/utils.cpp.i: cmake_force
@@ -124,25 +110,55 @@ CMakeFiles/main.dir/src/utils/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/utils/utils.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\utils\utils.cpp" -o CMakeFiles\main.dir\src\utils\utils.cpp.s
 
+CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj: C:/Users/elo48/OneDrive/Documents/C\ and\ C++\ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/rectangle/rectangle.cpp
+CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj -MF CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.obj.d -o CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.obj -c "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\rectangle\rectangle.cpp"
+
+CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\rectangle\rectangle.cpp" > CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.i
+
+CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\rectangle\rectangle.cpp" -o CMakeFiles\main.dir\src\shapes\rectangle\rectangle.cpp.s
+
+CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj: C:/Users/elo48/OneDrive/Documents/C\ and\ C++\ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/triangle/triangle.cpp
+CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj -MF CMakeFiles\main.dir\src\shapes\triangle\triangle.cpp.obj.d -o CMakeFiles\main.dir\src\shapes\triangle\triangle.cpp.obj -c "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\triangle\triangle.cpp"
+
+CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\triangle\triangle.cpp" > CMakeFiles\main.dir\src\shapes\triangle\triangle.cpp.i
+
+CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\shapes\triangle\triangle.cpp" -o CMakeFiles\main.dir\src\shapes\triangle\triangle.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
 "CMakeFiles/main.dir/src/display/display.cpp.obj" \
+"CMakeFiles/main.dir/src/utils/utils.cpp.obj" \
 "CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj" \
-"CMakeFiles/main.dir/src/utils/utils.cpp.obj"
+"CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/src/display/display.cpp.obj
-main.exe: CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj
 main.exe: CMakeFiles/main.dir/src/utils/utils.cpp.obj
+main.exe: CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj
+main.exe: CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

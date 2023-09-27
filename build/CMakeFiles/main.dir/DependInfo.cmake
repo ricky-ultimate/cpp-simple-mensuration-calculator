@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/display/display.cpp" "CMakeFiles/main.dir/src/display/display.cpp.obj" "gcc" "CMakeFiles/main.dir/src/display/display.cpp.obj.d"
   "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/rectangle/rectangle.cpp" "CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj" "gcc" "CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.obj.d"
+  "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/shapes/triangle/triangle.cpp" "CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj" "gcc" "CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj.d"
   "C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/src/utils/utils.cpp" "CMakeFiles/main.dir/src/utils/utils.cpp.obj" "gcc" "CMakeFiles/main.dir/src/utils/utils.cpp.obj.d"
   )
 

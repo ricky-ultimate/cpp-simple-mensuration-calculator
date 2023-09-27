@@ -200,6 +200,30 @@ src/shapes/rectangle/rectangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s
 .PHONY : src/shapes/rectangle/rectangle.cpp.s
 
+src/shapes/triangle/triangle.obj: src/shapes/triangle/triangle.cpp.obj
+.PHONY : src/shapes/triangle/triangle.obj
+
+# target to build an object file
+src/shapes/triangle/triangle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.obj
+.PHONY : src/shapes/triangle/triangle.cpp.obj
+
+src/shapes/triangle/triangle.i: src/shapes/triangle/triangle.cpp.i
+.PHONY : src/shapes/triangle/triangle.i
+
+# target to preprocess a source file
+src/shapes/triangle/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.i
+.PHONY : src/shapes/triangle/triangle.cpp.i
+
+src/shapes/triangle/triangle.s: src/shapes/triangle/triangle.cpp.s
+.PHONY : src/shapes/triangle/triangle.s
+
+# target to generate assembly for a file
+src/shapes/triangle/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/triangle/triangle.cpp.s
+.PHONY : src/shapes/triangle/triangle.cpp.s
+
 src/utils/utils.obj: src/utils/utils.cpp.obj
 .PHONY : src/utils/utils.obj
 
@@ -242,6 +266,9 @@ help:
 	@echo ... src/shapes/rectangle/rectangle.obj
 	@echo ... src/shapes/rectangle/rectangle.i
 	@echo ... src/shapes/rectangle/rectangle.s
+	@echo ... src/shapes/triangle/triangle.obj
+	@echo ... src/shapes/triangle/triangle.i
+	@echo ... src/shapes/triangle/triangle.s
 	@echo ... src/utils/utils.obj
 	@echo ... src/utils/utils.i
 	@echo ... src/utils/utils.s

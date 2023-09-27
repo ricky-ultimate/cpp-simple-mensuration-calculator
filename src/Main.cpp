@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <iostream>
+#include "display/display.h"
+
 #define repeat(n) for (int i = 0; i < n; i++) 
 
 using namespace std;
@@ -9,17 +11,6 @@ void parallelogramArea(), parallelogramPerimeter();
 void triangleArea(), trapeziumArea();
 void squareArea(), squarePerimeter();
 void lineBreak();
-
-void displayTitle() {
-    cout <<"WELCOME TO THE MENSURATION (2D SHAPES) CALCULATOR!" << endl;
-    printf("--------------------------------------------------");
-
-    cout <<"\nThe available shapes are:" << endl;
-    cout << " \n\t1. Rectangle \n\t2. Parallelogram \n\t3. Triangle \n\t4. Trapezium \n\t5. Square " << endl;
-
-    cout <<"\n Enter the shape's number to continue: ";
-}
-
 
 int main(){
     displayTitle();

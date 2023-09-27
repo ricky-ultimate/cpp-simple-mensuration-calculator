@@ -200,6 +200,30 @@ src/shapes/rectangle/rectangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/shapes/rectangle/rectangle.cpp.s
 .PHONY : src/shapes/rectangle/rectangle.cpp.s
 
+src/utils/utils.obj: src/utils/utils.cpp.obj
+.PHONY : src/utils/utils.obj
+
+# target to build an object file
+src/utils/utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/utils/utils.cpp.obj
+.PHONY : src/utils/utils.cpp.obj
+
+src/utils/utils.i: src/utils/utils.cpp.i
+.PHONY : src/utils/utils.i
+
+# target to preprocess a source file
+src/utils/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/utils/utils.cpp.i
+.PHONY : src/utils/utils.cpp.i
+
+src/utils/utils.s: src/utils/utils.cpp.s
+.PHONY : src/utils/utils.s
+
+# target to generate assembly for a file
+src/utils/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/utils/utils.cpp.s
+.PHONY : src/utils/utils.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +242,9 @@ help:
 	@echo ... src/shapes/rectangle/rectangle.obj
 	@echo ... src/shapes/rectangle/rectangle.i
 	@echo ... src/shapes/rectangle/rectangle.s
+	@echo ... src/utils/utils.obj
+	@echo ... src/utils/utils.i
+	@echo ... src/utils/utils.s
 .PHONY : help
 
 

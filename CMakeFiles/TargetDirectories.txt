@@ -1,0 +1,3 @@
+C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/CMakeFiles/main.dir
+C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/CMakeFiles/ALL_BUILD.dir
+C:/Users/elo48/OneDrive/Documents/C and C++ Programs/ricky-ultimate/cpp-simple-mensuration-calculator/CMakeFiles/ZERO_CHECK.dir

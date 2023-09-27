@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\src\display\display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{407B4655-DABD-3472-A5B6-47F2AE4E0BC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

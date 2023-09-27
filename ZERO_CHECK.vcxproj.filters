@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\elo48\OneDrive\Documents\C and C++ Programs\ricky-ultimate\cpp-simple-mensuration-calculator\CMakeFiles\c5bd6aa7944699d5fec689a38069c012\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{67F8BD94-DC8B-322B-B6BB-7B9757061AE1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

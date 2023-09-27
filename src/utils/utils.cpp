@@ -7,6 +7,11 @@ namespace shapes {
         void display();
         void handleShapeInput();
     }
+
+    namespace triangle {
+        void display();
+        void handleShapeInput();
+    }
 }
 
 void refreshStdOut() {
@@ -32,7 +37,18 @@ void handleShapeInput(int shape) {
 
     refreshStdOut();
 
-    if (shape == 1) {
-        shapes::rectangle::handleShapeInput();
+    switch (shape)
+    {
+        case 1:
+            shapes::rectangle::handleShapeInput();
+            break;
+
+        case 3:
+            shapes::triangle::handleShapeInput();
+            break;
+        
+        default:
+            shapes::rectangle::handleShapeInput();
+            break;
     }
 }
